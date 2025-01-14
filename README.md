@@ -25,4 +25,4 @@ Each project is organized into its own folder with the necessary `HTML` and `CSS
 
 1. Clone the repository:  
    ```bash
-   git clone 
+   git clone https://github.com/swathiramesh24/html-css.git
