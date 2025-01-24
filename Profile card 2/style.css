@@ -1,0 +1,121 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, lightblue 0%, rgb(133, 133, 227) 25%, rgb(122, 122, 238) 50%, rgb(154, 154, 190) 75%, rgb(163, 163, 210) 100%);
+}
+
+.card{
+  display: flex;
+  position: relative;
+  background-color: #EAE0C8;
+  max-width: 400px;
+  width: 100%;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  flex-direction: column;
+  border: none;
+  outline: none;
+}
+
+.profile{
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile .mingyu{
+  display: flex;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.name-job{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name{
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #536878;
+  font-weight: 600;
+}
+
+.job{
+  font-size: 16px;
+  color: #536878;
+  font-weight: 500;
+}
+
+.card .icons{
+  display: flex;
+  margin-top: 18px;
+  align-items: center;
+}
+
+.icons .link{
+  margin: 0 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: #536878;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  display:flex ;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.button{
+  margin-top: 25px;
+}
+
+.button .follow{
+  margin-right: 25px;
+  height: 38px;
+  width: 70px;
+  border-radius: 15px;
+  border: none;
+  background-color: #536878;
+  color: white;
+  font-weight:600;
+}
+
+.button .know-more{
+  margin-left: 25px;
+  height: 38px;
+  width: 85px;
+  border-radius: 15px;
+  border: none;
+  background-color: #536878;
+  color: white;
+  font-weight:600;
+}
+
+.card::before{
+  content: '';
+  position:absolute;
+  height: 150px;
+  width: 100%;
+  background-color: #536878;
+  top: 0;
+  left: 0;
+  border-radius: 24px 24px 0 0;
+}
+
