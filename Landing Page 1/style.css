@@ -1,0 +1,371 @@
+body{
+  background: linear-gradient(90deg, rgba(141,139,172,1) 0%, rgba(111,206,225,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whole-container{
+  background-color: white;
+  display: flex;
+  max-width: 1000px;
+}
+
+.company, .home, .contact, .about, .services, .blog, .signup{
+  display: inline-block;
+}
+
+.landing-pages{
+  margin: 0px;
+  width: 100%;
+}
+
+.header-section{
+  display: flex;
+  flex-wrap: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+
+.company, .contact, .about, .services, .blog, .home{
+  color: black;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup{
+  margin-left: 150px;
+  margin-right: 40px;
+  white-space: nowrap;
+  background-color: rgb(244, 66, 2);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signup:hover, .start:hover, .start1:hover{
+  background-color: orange;
+  transition: 0.3s;
+}
+
+.body-image{
+  width: 400px;
+}
+
+.body-image .first-image{
+  width: 500px;
+}
+
+.body-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 80%; 
+  margin: 0;
+}
+
+.body-text{
+  width: 500px;
+  height: 500px;
+  margin-right:30px;
+  margin-top: 60px;
+}
+
+
+.body-section .text{
+  color: black;
+  display: flex;
+  justify-content: left;
+  padding-top: 10%;
+  padding-left: 15%;
+  font-size: 40px;
+  letter-spacing: 0;
+  margin-bottom: 0%;
+  font-weight: 1000;
+}
+
+.body-section .sub-text{
+  margin-top: 0%;
+  padding-left: 15%;
+  font-size: 15px;
+  color: gray;
+}
+
+.start{
+  margin-left: 15%;
+  padding:10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(244, 66, 2);
+  color: white;
+  font-weight: bold;
+}
+
+.first, .sub-line1, .sub-line2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first{
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 0%;
+}
+
+.sub-line1{
+  color: gray;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+.sub-line2{
+  color: gray;
+  margin-top: 0px;
+}
+
+.sections{
+  margin-top: 30px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.first-section, .second-section, .third-section, .fourth-section{
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  margin-right: 60px;
+  border-radius: 8px;
+  box-shadow: 5px -5px 15px rgba(0, 0, 0, 0.2), 5px 0 15px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content{
+  color: gray;
+}
+
+.first-section, .second-section, .third-section, .fourth-section{
+  border: 5px solid transparent;
+  border-image: linear-gradient(45deg, rgb(248, 198, 2), rgb(219, 169, 77)) 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.first-section:hover, .second-section:hover, .third-section:hover, .fourth-section:hover{
+  box-shadow: 0 0 15px 8px rgb(226, 226, 83);
+}
+
+.second-page{
+  background-color: rgb(251, 214, 146);
+  height: 500px;
+  display: flex;
+}
+
+.second-image img{
+  padding-top: 50px;
+}
+
+.description, .second-image{
+  display: inline-block;
+}
+
+.description{
+  margin-top: 60px;
+}
+
+.title1{
+  font-size: 30px;
+  font-weight: 1000;
+  margin-bottom: 0px;
+}
+
+.points{
+  font-size: 20px;
+  margin-bottom:12px;
+}
+
+.start1, .more{
+  margin-top: 35px;
+  margin-right: 70px;
+}
+
+.start1{
+  padding:10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(244, 66, 2);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.more{
+  padding:10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  color: orangered;
+  font-weight: bold;
+  border: 3px solid;
+  cursor: pointer;
+}
+
+.more:hover{
+  background-color: orangered;
+  color: white;
+  transition: 0.3s;
+}
+
+.third-page{
+  height: 480px;
+  display: flex;
+  margin-left: 45px;
+}
+
+.agency{
+  background-color: white;
+  width:500px;
+  margin-right:20px;
+  margin-top: 100px;
+  padding-top:20px;
+}
+
+.read{
+  margin-top: 20px;
+  padding:10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(244, 66, 2);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.read:hover{
+  background-color: orange;
+  transition: 0.3s;
+}
+
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.sec1, .sec2, .sec3, .sec4{
+  display: inline-block;
+  height: 190px;
+  width: 200px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: -10px 10px 6px 6px rgb(125, 120, 120);
+}
+
+.sec1{
+  margin-right: 25px;
+}
+
+.sec2{
+  margin-right: 25px;
+}
+
+.sec3{
+  margin-right: 25px;
+}
+
+.name{
+  font-weight: bold;
+  color: orangered;
+}
+
+.comment{
+  color: gray;
+  font-size: 15px;
+}
+
+.last-page{
+  background-color: rgb(251, 214, 146);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.company-detail, .icons, .resources, .designs{
+  display: inline-block;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 150px;
+}
+
+.icons1 {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.link {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.company-detail{
+  margin-right: 70px;
+}
+
+.design{
+  margin-right: 70px;
+}
+
+.footer{
+  background-color: orangered;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-top-left-radius: 90px; 
+  border-top-right-radius: 90px;
+}
+
+
+
+
