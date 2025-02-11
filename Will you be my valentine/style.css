@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(255, 195, 205);
+  font-family:fantasy;
+}
+
+.question{
+  width: 350px;
+  display: block;
+  margin: auto;
+  height: 400px;
+  margin-top: 50px;
+  object-fit: cover;
+  clip-path: inset(0px 0px 33px 0px);
+  margin-bottom: 0px;
+}
+
+.ques{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.will-you{
+  font-size: 35px;
+  margin-top: 0px;
+  color: #ffff;
+  font-style: italic;
+}
+
+.colored{
+  color: rgb(242, 67, 96);
+  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.colored:hover{
+  text-shadow: 0 0 1px rgba(242, 67, 96, 0.8), 
+                 0 0 12px rgba(242, 67, 96, 0.6), 
+                 0 0 12px rgba(242, 67, 96, 0.4);
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yes{
+  background-color: rgb(242, 67, 96);
+  border: 2px solid rgb(242, 43, 252);
+  padding: 15px 25px 15px 25px;
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor:pointer;
+}
+
+.yes:hover{
+  box-shadow: 0 0 10px rgba(242, 67, 96, 0.8), 
+                 0 0 20px rgba(242, 67, 96, 0.6), 
+                 0 0 30px rgba(242, 67, 96, 0.4);
+}
+
+.no{
+  background-color: rgb(242, 67, 96);
+  border: 2px solid rgb(242, 43, 252);
+  padding: 15px 25px 15px 25px;
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.no:hover{
+  padding: 0px;
+  background-color: gray;
+  border-radius: 10px;
+  font-size: 1px;
+  transition: 0.3s ease-in;
+}
+
