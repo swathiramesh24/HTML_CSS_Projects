@@ -76,7 +76,8 @@ body{
   padding: 0px;
   background-color: gray;
   border-radius: 10px;
-  font-size: 1px;
-  transition: 0.3s ease-in;
+  font-size: 13px;
+  transition: 0.5s ease-in;
+  animation: stayEffect 5s linear;
 }
 
