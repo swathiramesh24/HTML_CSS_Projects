@@ -1,0 +1,181 @@
+body{
+  background: rgb(100, 100, 215);
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background-color: rgb(19, 19, 71);
+  width: 800px;
+  height: 1350px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: -20px 30px 6px -6px rgb(78, 73, 73);
+  margin: 0%;
+  padding: 0;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.first-page{
+  background-image: url("/HTML_CSS_Projects/Landing Page 2/bg1.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin: 0%;
+  padding: 0%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-radius: 10px;
+}
+
+
+.header{
+  margin-left: 50px;
+}
+
+.offering, .why, .stories, .help, .login{
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+.login{
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 280px;
+  padding: 5px 18px 5px 18px;
+  border-radius: 12px;
+}
+
+.body-section{
+  margin-top:100px;
+  margin-left: 200px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+
+.first-line, .second-line{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.get-started{
+  background-color: rgb(1, 1, 51);
+  color: white;
+  border: none;
+  padding: 10px 18px 10px 18px;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: 0.4s ease-in-out;
+}
+
+.get-started:hover{
+  background-color: white;
+  color: rgb(1,1,51);
+}
+
+.first-line{
+  margin-bottom: 0px;
+}
+
+.second-page{
+  height: 350px;
+  background-color:aqua ;
+  margin-top: 0%;
+  background: rgb(0,51,102);
+  background-image: url("/HTML_CSS_Projects/Landing page 2/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 0%;
+}
+
+.title{
+  margin-top: 0%;
+  padding-top: 55px;
+  color: rgb(75, 75, 245);
+  margin-left: 50px;
+  font-size: 20px;
+  margin-bottom: 35px;
+  font-weight: 1000;
+}
+
+.sections{
+  margin-top: 18px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-section, .second-section, .third-section, .fourth-section{
+  display: inline-block;
+  height: 70px;
+  width: 180px;
+  margin-right: 60px;
+
+}
+
+.title1, .description{
+  color: rgb(195, 190, 190);
+  text-align: center;
+}
+
+.title1{
+  font-weight: 1000;
+}
+
+.last-page{
+  background-image: url("/HTML_CSS_Projects/Landing Page 2/bg3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  margin-top: 0%;
+  border-radius: 10px;
+}
+
+.first, .second, .third, .fourth{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.first{
+  padding-top: 100px;
+  color: rgb(2, 2, 54);
+  font-size: 20px;
+  margin-bottom: 35px;
+  font-weight: 1000;
+  text-decoration:underline;
+}
+
+.second, .third{
+  color: white;
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+.fourth{
+  color: rgb(13, 3, 74);
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+
+
